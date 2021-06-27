@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Health"
+            android:icon="@drawable/health"
+            android:title="Heart health" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about"
+            android:title="About us"/>
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/rateus"
+            android:title="Rate us" />
+    </group>
+
+</menu>
